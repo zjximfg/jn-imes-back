@@ -31,5 +31,11 @@ public class DeviceConnectionController extends BaseController {
         return ResponseEntity.ok(deviceConnection);
     }
 
+    @GetMapping("currentCompany")
+    public ResponseEntity<DeviceConnection> getCurrentCompanyDeviceConnection() {
+        DeviceConnection deviceConnection = deviceConnectionService.getDeviceConnectionByCompanyId(currentUser.getCompanyId());
+        return ResponseEntity.ok(deviceConnection);
+    }
+
 
 }
