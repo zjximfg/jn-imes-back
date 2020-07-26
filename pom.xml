@@ -17,6 +17,7 @@
         <module>imes_project</module>
         <module>imes_influx</module>
         <module>imes_mqtt_client</module>
+        <module>imes_warehouse</module>
     </modules>
 
     <packaging>pom</packaging>

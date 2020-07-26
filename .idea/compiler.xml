@@ -14,6 +14,7 @@
         <module name="imes_mqtt_client" />
         <module name="imes_project" />
         <module name="imes_system" />
+        <module name="imes_warehouse" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +32,7 @@
       <module name="imes_mqtt_client" options="-parameters" />
       <module name="imes_project" options="-parameters" />
       <module name="imes_system" options="-parameters" />
+      <module name="imes_warehouse" options="-parameters" />
     </option>
   </component>
 </project>
